@@ -42,7 +42,7 @@ public class NameOnDisplay extends JavaPlugin implements Listener {
         Player player = event.getPlayer();
         Player target = getTargetPlayer(player);
         if (target != null) {
-            sendActionBarMessage(player, ChatColor.GREEN + target.getName());
+            sendActionBarMessage(player, ChatColor.DARK_AQUA + target.getName());
         }
     }
 
