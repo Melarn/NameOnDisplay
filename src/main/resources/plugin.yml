@@ -1,0 +1,6 @@
+name: NameOnDisplay
+version: '${project.version}'
+main: me.melarn.nameondisplay.NameOnDisplay
+api-version: 1.19
+authors: [ melarn ]
+description: Shows a nickname of player at action-bar
